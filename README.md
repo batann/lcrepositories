@@ -98,25 +98,18 @@ This is an example of how to list things you need to use the software and how to
   ```
 
 ### Installation
+##### *Like with all lc repositories:*
+1. Clone repositori
+2. Adjust permissions
+3. Run install.sh
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/batann/lcrepositories.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin batann/lcrepositories
-   git remote -v # confirm the changes
-   ```
+```sh
+git clone https://github.com/batann/lcrepositories
+sudo chmod a+x /home/batan/lcrepositories/install.sh
+sudo bash lcrepositories/install.sh
+
+```
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
